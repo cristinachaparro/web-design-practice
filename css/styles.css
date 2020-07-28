@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	background: #fff;
+}
+
+header{
+	background:linear-gradient(
+		rgba(0, 0, 0, .6),
+		rgba(0, 0, 0, .2),
+		rgba(0, 0, 0, .6)
+		), url(../img/yannick-pulver-unsplash.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	overflow: auto;
+}
+
+/* MENU */
+
+/* nav{
+	position: fixed;
+	width: 100%;
+} */
+
+nav ul{
+	text-align: center;
+	list-style: none;
+	margin-top: 25px;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+	transition: all .3s ease;
+}
+
+nav ul li:hover{
+	transform:scale(1.1);
+}
+
+nav ul li:hover a{
+	border-bottom: 1px solid #fff;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+}
+
+/* HEADER */
+
+.contenedor {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.contenedor-titulo {
+	/*height: 100vh;*/
+	height: calc(100vh - 95px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor-titulo h1 {
+	color: #fff;
+	font-size: 48px;
+	border: 10px double #fff;
+	padding: 70px 50px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/* PRINCIPAL */
+
+article {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	border-bottom: 5px dotted gray;
+	margin-bottom: 20px;
+}
+
+article h3 {
+	font-size: 32px;
+	padding-bottom: 30px;
+}
+
+article p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+blockquote {
+	font-size: 18px;
+}
+
+.tabla {
+	padding-bottom: 20px;
+}
+
+.cont-tabla {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+@media (max-width: 576px){
+	.cont-tabla{
+		widht: 100%!important;
+	}
+}
+
+.cont-tabla table {
+	width: 100%;
+	text-align: center;
+}
+
+.cont-tabla table td {
+	padding: 40px 20px;
+}
+
+@media (max-width: 576px){
+	.img-tabla{
+		width: 100%!important;
+	}
+}
+
+.img-tabla {
+	width: 50%;
+	display: inline-block;
+	height: 300px;
+	overflow: hidden;
+}
+
+.img-tabla img {
+		height: 100%;
+		width: auto;
+}
+
+/* seccion llamada */
+
+.llamada{
+	background:url(../img/andreas-strandman-unsplash.jpg);
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+}
+
+.llamada-texto {
+	text-align: center;
+}
+
+.llamada-texto h3 {
+	color: rgba(34, 37, 38, 1);
+	font-size: 32px;
+}
+
+.llamada-texto button {
+	padding: 10px 20px;
+	margin-top: 20px;
+	border: none;
+	background-color: #ffa630;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 2px;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+
+button:hover{
+	transform:scale(1.1);
+}
+
+/* FOOTER */
+
+footer {
+	height: 50px;
+	background-color: #152537;
+	text-align: center;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+}

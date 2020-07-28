@@ -1,0 +1,30 @@
+body {
+	color: green;
+}
+
+p {
+	padding: 200px;
+}
+
+h1 {
+	color: green;
+	font-size: 50px;
+}
+
+#idPrincipal {
+	margin: 100px;
+}
+
+.clase {
+	width: 900px;
+}
+
+div p {
+	color: purple;
+	font-size: 25px;
+}
+
+
+div:hover {
+	background-color: black;
+}
