@@ -23,11 +23,6 @@ header{
 
 /* MENU */
 
-/* nav{
-	position: fixed;
-	width: 100%;
-} */
-
 nav ul{
 	text-align: center;
 	list-style: none;
@@ -113,7 +108,7 @@ blockquote {
 
 @media (max-width: 576px){
 	.cont-tabla{
-		widht: 100%!important;
+		width: 100%;
 	}
 }
 
@@ -128,7 +123,7 @@ blockquote {
 
 @media (max-width: 576px){
 	.img-tabla{
-		width: 100%!important;
+		width: 100%;
 	}
 }
 
